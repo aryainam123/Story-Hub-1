@@ -57,13 +57,13 @@ export default class WriteStoryScreen extends React.Component {
                     style={styles.storyText}
                   //  multiline={false}
                   //  multiline=true
-                  //  multiline="true"
-                    multiline={true}
+                   //multiline="true"
+                  multiline={true}
                   />
                 
                 <TouchableOpacity
                     style={styles.submitButton}
-                   // onPress={this.submitStory}
+                    onPress={this.submitStory}
                    >
                     <Text style={styles.buttonText}>Submit</Text>
                 </TouchableOpacity>
